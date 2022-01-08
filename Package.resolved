@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LogKit",
+        "repositoryURL": "https://github.com/hrietmann/LogKit.git",
+        "state": {
+          "branch": null,
+          "revision": "1e3aa722fdfe6ffd5d1cd59bb93fa74fad095015",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
