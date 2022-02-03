@@ -48,6 +48,12 @@ extension Decodable {
     }
     
     
+    public static func from(json: [String:Any], debug: Bool = false) throws -> Self {
+        let data = try JSONSerialization.data(withJSONObject: json, options: .prettyPrinted)
+        return try from(data: data)
+    }
+    
+    
 }
 
 
